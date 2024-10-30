@@ -1,0 +1,286 @@
+body{
+    background-image: url(image/eveningtree.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+}
+#nav{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+#nav a:hover{
+    color:rgb(0, 255, 34);
+}
+
+#myh1 {
+    font-size: 2.5em;
+    color: rgb(0, 255, 34);
+    position: relative;
+    padding-left: 1px;
+    bottom: 15px;
+    right:70px;
+    margin-left: 80px;
+    
+}
+#nav h3{
+
+    padding-bottom: 0px;
+    font-size: 1.4em;
+    height: fit-content;
+    
+}
+
+#nav a{
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+}
+
+#topbar {
+    padding-bottom: 0px;
+    font-size: 1.2em;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#topbar a{
+    margin-right: 60px;
+}
+
+
+
+#main{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+#main :nth-child(1){
+    color:white;
+}
+
+
+#main h1,p{
+    width: 50%;
+    padding-left: 30px;
+    color: white;
+ 
+}
+#main h1::first-line{
+    color:rgb(0, 255, 34);
+}
+
+
+
+#main button{
+    position: relative;
+    left:20px;
+    font-size: 1.8em;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(0, 255, 34);
+}
+#main a{
+    text-decoration: none;
+    color:white;
+}
+
+#main button:hover{
+    color:rgb(255, 0, 81);
+    background-color: white;
+}
+
+#main a:hover{
+    color:rgb(255, 0, 81);
+    background-color: white;
+}
+#section{
+    text-align: center;
+}
+#about{
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    width:85%;
+    background-color: rgb(0, 0, 0);
+    color:rgb(21, 154, 3);
+    position: relative;
+    margin-left: 120px;
+}
+
+#about h1{
+    text-align: center;
+    margin-left: 60px;
+    color:rgb(68, 255, 0);
+}
+
+#about span{
+    color:rgb(255, 0, 230);
+}
+
+#myp{
+    width: 90%;
+    position: absolute;
+    
+}
+
+#service{
+    height: 300px;
+    width: 85%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    color:rgb(255,0,230)
+}
+
+#service1 p{
+    width: 90%;
+}
+
+#service span{
+    color:rgb(68, 255, 0);
+}
+
+#service1 h3{
+    color:aqua
+}
+
+#foot{
+    background-color: black;
+    height:auto;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    color:rgb(0, 255, 34);
+}
+
+
+#h1{
+    position: relative;
+    font-size: 2.5em;
+    text-align: center;
+    justify-content: center;
+    left:20px;
+}
+
+.link a{
+    text-decoration: none;
+    color:white;
+}
+
+.link a:hover{
+    color:hsl(0, 11%, 62%)
+}
+
+#contact{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color:white;
+}
+
+#contact h1{
+    color:rgb(78, 255, 24);
+}
+
+#barbtn{
+    display: none;
+}
+@media screen and (max-width:650px) {
+    
+}
+
+
+@media screen and (max-width:850px)  {
+
+    #myh1 {
+        margin-left: 140px;
+    }
+
+    
+    .fa-solid.fa-bars.fa-3x {
+        display: inline-block;
+        text-align: right;
+        margin-right: 20px;
+        position: relative;
+        height: fit-content;
+        left: 5px;
+        top:25px;
+        color: white;
+
+        
+    }
+    #barbtn{
+        height: 80px;
+        background-color: transparent;
+        border: none;
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+    body{
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        scroll-behavior: smooth;
+        margin: 0;
+        padding: 0;
+        height:auto;
+        width:auto;
+    }
+    #myh1{
+        text-align: center;
+        font-size: 2em;
+        margin-top: 50px;
+    }
+    #barbtn:active #topbar{
+
+        display: inline-block;
+    } 
+    #topbar{
+        position: absolute;
+        display: none;
+        border: solid 2px white;
+        background-color: hsl(0, 0%, 58%);
+        color: rgb(255, 255, 255);
+        width: 200px;
+        text-align: center;
+        right: 20px;
+        top:30px;
+    }
+    #topbar a:hover{
+        background-color: white;
+    }
+
+
+    #main button {
+
+        text-align: center;
+        
+    }
+    #main h1,p{
+        width: 100%;
+    }
+
+    #about{
+        text-align: center;
+        margin-left:60px ;
+        overflow: auto;
+    }
+    
+    #foot{
+        width: 100%;
+        padding: 30px;
+    }
+    #service{
+        overflow: auto;
+    }
+}
