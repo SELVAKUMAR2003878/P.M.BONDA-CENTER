@@ -68,3 +68,11 @@ body{
 #btn{
     cursor: pointer;
 }
+
+@media screen and (max-width:600px) {
+    #contact{
+        font-size: 1.2em;
+        margin-bottom: -20px;
+    }
+    
+}
