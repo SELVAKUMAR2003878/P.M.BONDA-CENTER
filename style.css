@@ -116,7 +116,7 @@ body{
 
 #about h1{
     text-align: center;
-    margin-left: 60px;
+    margin-left: 50px;
     color:rgb(68, 255, 0);
 }
 
@@ -218,6 +218,8 @@ body{
     }
     #foot {
         width: 100%;
+        margin: auto;
+        text-align: center;
         
     }
 }
