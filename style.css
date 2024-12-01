@@ -192,6 +192,13 @@ body{
 #barbtn{
     display: none;
 }
+#exit {
+    padding:10px;
+    font-size: 1.3em;
+    border:none;
+    border-radius: 10px;
+
+}
 @media screen and (max-width:650px) {
 
     body{

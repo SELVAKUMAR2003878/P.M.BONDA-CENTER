@@ -15,11 +15,9 @@ function sendWhatsApp() {
   if(Male.checked) {
     Gender = "Male";
   } 
-  else if(Female.checked) {
-    Gender = "Female";
-  }
+
   else{
-    Gender = null;
+    Gender = "Female";
   }
 
   var url = "https://wa.me/" + phoneNumber + "?text="
@@ -46,7 +44,7 @@ function amount() {
   const result = document.getElementById("viewcon");
 
   let redcoc = 35;
-  let greencoc = 25;
+  let greencoc = 30;
   let petrol = 50;
 
   if (quantity == "") {
